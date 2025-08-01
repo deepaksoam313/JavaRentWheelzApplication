@@ -21,6 +21,10 @@ pipeline {
             steps {
                 echo 'Running tests...'
                 // Exam
+            }
+        }
+    }
+}
 
 
 // pipeline {
