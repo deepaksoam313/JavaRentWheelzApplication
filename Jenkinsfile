@@ -4,7 +4,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 echo 'Cloning the repository...'
-                git branch: 'main', url: 'https://github.com/deepaksoam313/JAVADigitalAcademyAssignments.git'
+                git branch: 'main', url: 'https://github.com/deepaksoam313/JavaRentWheelzApplication.git'
             }
         }
         stage('Build') {
