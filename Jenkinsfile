@@ -1,5 +1,10 @@
 pipeline {
     agent any
+
+    triggers {
+        githubPush() // This tells Jenkins to look for GitHub webhooks
+    }
+    
     tools{
         jdk 'jdk21'
         maven 'maven3'
